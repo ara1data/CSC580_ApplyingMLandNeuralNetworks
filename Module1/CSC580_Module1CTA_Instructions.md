@@ -8,8 +8,9 @@ Code Steps
 1. import PIL.ImageDraw
 2. import face_recognition
 3. Load the jpg file into a numpy array
-4. Find all the faces in the image # Use the following Python pseudocode as guidance for your solution.
-   - numberOfFaces = len(faceLocations)print("Found {} face(s) in this picture.".format(numberOfFaces))
+4. Find all the faces in the image 
+   - Use the following Python pseudocode as guidance for your solution:
+         - numberOfFaces = len(faceLocations)print("Found {} face(s) in this picture.".format(numberOfFaces))
 5. Load the image into a Python Image Library object so that you can draw on top of it and display it
    - pilImage = PIL.Image.fromarray(image)
 6. for faceLocation in faceLocations:
