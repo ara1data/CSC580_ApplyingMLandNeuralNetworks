@@ -24,3 +24,9 @@ CSC580_ CTA6_Option_1_last_name_first_name.zip
 References:
 
 Rao, A. (2019, May 20). Convolutional neural network tutorial (CNN) – Developing an image classifier in Python using TensorFlow. https://www.edureka.co/blog/convolutional-neural-network
+
+print("\nThe model can be further improved by:")
+print("- Data augmentation techniques")
+print("- Advanced architectures (ResNet, DenseNet)")
+print("- Hyperparameter tuning")
+print("- Transfer learning from pre-trained models")

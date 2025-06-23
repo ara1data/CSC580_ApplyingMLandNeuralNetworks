@@ -292,12 +292,6 @@ def main():
         print("Model Performance: Fair (60-70% accuracy)")
     else:
         print("Model Performance: Needs improvement (<60% accuracy)")
-    
-    print("\nThe model can be further improved by:")
-    print("- Data augmentation techniques")
-    print("- Advanced architectures (ResNet, DenseNet)")
-    print("- Hyperparameter tuning")
-    print("- Transfer learning from pre-trained models")
 
 if __name__ == "__main__":
     # Set random seed for reproducibility
